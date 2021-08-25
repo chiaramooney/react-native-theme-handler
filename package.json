@@ -1,0 +1,43 @@
+{
+  "name": "react-native-theme-handler",
+  "title": "React Native Theme Handler",
+  "version": "1.0.0",
+  "description": "A react-native module for accessing and setting native theme from a react-native application.",
+  "homepage": "?",
+  "main": "src/index.ts",
+  "files": [
+    "README.md",
+    "android",
+    "index.ts",
+    "ios",
+    "react-native-theme-handler.podspec"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "windows": "react-native run-windows"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github_account/react-native-theme-handler.git",
+    "baseUrl": "https://github.com/github_account/react-native-theme-handler"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Chiara Mooney",
+    "url": "https://github.com/chiaramooney"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": ">=16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "17.0.1",
+    "react-native": "0.64",
+    "react-native-windows": "0.64"
+  }
+}
